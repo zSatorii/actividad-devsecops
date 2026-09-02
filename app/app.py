@@ -36,3 +36,5 @@ def db_check():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+def unsafe_eval(user_input): return eval(user_input)
+PASSWORD = "admin_password_hardcoded_12345"
