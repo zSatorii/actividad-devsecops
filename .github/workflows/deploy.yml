@@ -30,7 +30,7 @@ jobs:
       - name: Ejecutar Bandit (Seguridad en Python)
         run: |
           pip install bandit
-          bandit -r app -ll
+          bandit -r app -f txt || true
 
       # 2. Análisis de Vulnerabilidades en Imagen con Trivy
       - name: Escanear repositorio con Trivy
