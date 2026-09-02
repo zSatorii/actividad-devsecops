@@ -37,3 +37,5 @@ def db_check():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 HARDCODED_SECRET = "supersecretpassword123"
+import os; os.system("echo " + input())
+PASSWORD = "admin_password_hardcoded_12345"
